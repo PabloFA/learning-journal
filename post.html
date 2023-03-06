@@ -4,7 +4,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
-    <title>My Learning Journal</title>
+    <title>My Learning Journal - Post</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,14 +21,13 @@
       </div>
       <nav class="menu">
         <ul>
-          <li><a class="current-page" href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about-me.html">About me</a></li>
         </ul>
       </nav>
     </header>
-
-    <div class="hero-post">
-      <div class="hero-content">
+    <div class="container">
+      <div class="post-content">
         <p class="date-post">July 23, 2022</p>
         <h1>My new journey as a bootcamp student</h1>
         <p class="hero-text">
@@ -37,20 +36,45 @@
           reviews of my Solo Projects projects and meet like-minded peers.
         </p>
       </div>
-    </div>
-    <div class="container">
+      <div class="post-img">
+        <img
+          src="images/article-image.svg"
+          alt="Notebook with a light and a view to the city throw the window"
+        />
+      </div>
+      <div class="post-content">
+        <h3>How I stay committed to learning</h3>
+        <p>
+          I like to think of myself as a lifelong learner. I used to spend hours
+          and hours learning, then try to create simple projects using what I
+          learned or work new techniques into existing projects. While that was
+          fun, I felt like it would be helpful to share what I was learning and
+          most things about my journey with the world.
+        </p>
+
+        <h3>How I got started</h3>
+        <p>
+          I started simple and gradually grew my learning journal site. I would
+          take notes about what I was learning. After each learning session, I'd
+          use my notes to not only reflect on what I learned but also write
+          short summaries of what I learned using my own words. That helped me
+          grok what I was learning, and I realized that posting my learning
+          summaries was also helping others learn and stay motivated.
+        </p>
+      </div>
+
+      <h3 class="text-center">Recent posts</h3>
+
       <div class="blog-posts">
         <div class="card-item">
-          <a href="./post.html">
-            <img class="card-img" src="images/blog-image-06.svg" alt="" />
-            <p class="date-card">July 23, 2022</p>
-            <h3>Blog one</h3>
-            <p class="card-text">
-              I'm excited to start a new learning journey as a Scrimba Bootcamp
-              student! After several months of learning in the Frontend
-              Developer Career Path.
-            </p>
-          </a>
+          <img class="card-img" src="images/blog-image-06.svg" alt="" />
+          <p class="date-card">July 23, 2022</p>
+          <h3>Blog one</h3>
+          <p class="card-text">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
         </div>
 
         <div class="card-item">
@@ -74,46 +98,13 @@
             Career Path.
           </p>
         </div>
-
-        <div class="card-item">
-          <img class="card-img" src="images/blog-image-03.svg" alt="" />
-          <p class="date-card">July 23, 2022</p>
-          <h3>Blog four</h3>
-          <p class="card-text">
-            I'm excited to start a new learning journey as a Scrimba Bootcamp
-            student! After several months of learning in the Frontend Developer
-            Career Path.
-          </p>
-        </div>
-
-        <div class="card-item">
-          <img class="card-img" src="images/blog-image-01.svg" alt="" />
-          <p class="date-card">July 23, 2022</p>
-          <h3>Blog five</h3>
-          <p class="card-text">
-            I'm excited to start a new learning journey as a Scrimba Bootcamp
-            student! After several months of learning in the Frontend Developer
-            Career Path.
-          </p>
-        </div>
-
-        <div class="card-item">
-          <img class="card-img" src="images/blog-image-02.svg" alt="" />
-          <p class="date-card">July 23, 2022</p>
-          <h3>Blog six</h3>
-          <p class="card-text">
-            I'm excited to start a new learning journey as a Scrimba Bootcamp
-            student! After several months of learning in the Frontend Developer
-            Career Path.
-          </p>
-        </div>
       </div>
       <div class="btn text-center">
         <a href="#">View More</a>
       </div>
     </div>
 
-    <footer>
+    <footer class="text-center">
       <p><span>My Learning Journal</span></p>
       <p>Copyright ©2023</p>
     </footer>
